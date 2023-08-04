@@ -1,0 +1,130 @@
+.header
+{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(203, 203, 203);
+
+
+}
+.left_section
+{
+    display: flex;
+    margin-right: 70px;
+    align-items: center;
+}
+.middle_section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    margin-right: 35px;
+    max-width: 600px;
+}
+.right_section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    width: 170px;
+}
+.hamburger_menu
+{
+    height:24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.youtube_logo
+{
+    height: 20px;
+
+}
+.search_bar
+{
+    flex: 1;
+    height: 36px;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius:3px;
+    border-color: rgb(186, 186, 186);
+    box-shadow:inset 2px 2px 2px
+    rgba(0, 0, 0,0.05);
+
+
+}
+.search_bar::placeholder
+{
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    padding-left: 12px;
+
+}
+.search_button
+{
+    height: 40px;
+    width: 66px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(186, 186, 186);
+    background-color:rgb(242, 242, 242);
+    margin-left: -3px;
+    margin-right: 8px;
+}
+.search_icon
+{
+    margin-top: 4px;
+    height: 25px;
+}
+.voice_search_button
+{
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+
+}
+.voice_search_icon
+{
+    height:22px;
+    margin-top:3px;
+
+}
+
+/*right header*/
+.right_section
+{
+    display: felx;
+    align-items: center;
+    flex-shrink: 0;
+}
+.upload_icon
+{
+    height: 25px;
+}
+.app_icon
+{
+    height: 25px;
+}
+.notification_icon
+{
+    height: 25px;
+}
+.my_channel_icon
+{
+    height: 27px;
+}
+
